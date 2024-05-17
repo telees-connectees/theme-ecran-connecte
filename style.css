@@ -1,0 +1,38 @@
+/*
+    Theme Name: Theme écran connecté
+    GitHub Theme URI: https://github.com/thomas-cardon/theme-ecran-connecte
+    Description: Thème aux couleurs d'Aix Marseille Université
+    Version: 1.3.2
+    Licence: GNU General Public License v2 ou ultérieure
+    Licence URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Author: Département Info - Aix en Provence
+    Tags: bootstrap, une colonne, deux colonnes, barre latérale droite, en-tête flexible, prêt pour l'accessibilité, couleurs personnalisées, en-tête personnalisé, logo personnalisé, widgets de pied de page, options de thème
+*/
+
+body {
+    background-color: #f2eff2;
+}
+
+.container-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.row {
+    margin: 0;
+}
+
+.title-bold {
+  color: var(--color-text-900) !important;
+}
+
+.title-block {
+  font-weight: normal;
+}
+
+table.schedule tbody {
+  border-top: none !important;
+}
